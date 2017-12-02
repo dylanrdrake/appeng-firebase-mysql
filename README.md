@@ -1,7 +1,6 @@
-# EZ Menu
+# Python Flask App boilerplate for Appengine
 
-A simple menu making application that stores User data and menu data in a MySQL database and publishes menus to public objects on Google Storage. Uses Firebase
-Authentication, Google App Engine, Google Cloud SQL and Google Storage.
+Firebase Authentication, Google App Engine, Google Cloud SQL
 
 You'll need to have [Python 2.7](https://www.python.org/) and the [Google Cloud SDK](https://cloud.google.com/sdk/?hl=en)
 installed and initialized to an App Engine project before running the code in
@@ -11,11 +10,11 @@ this sample.
 
 1. Clone this repo:
 
-        git clone https://github.com/dylanrdrake/ez-menu.git
+        git clone https://github.com/dylanrdrake/appeng-firebase-mysql
 
 1. Navigate to the backend directory:
 
-        cd ez-menu/backend
+        cd appeng-firebase-mysql/backend
 
 1. Install the 3rd-party dependencies to the backend service:
 
@@ -64,21 +63,4 @@ https://backend-dot-[PROJECT_ID].appspot.com.
 
         gcloud app deploy frontend/app.yaml backend/app.yaml
 
-    The Cloud Datastore indexes can take a while to update, so the application
-    might not be fully functional immediately after deployment.
-
 1. View the application live at https://[PROJECT_ID].appspot.com.
-
-
-## TODO
-  * Add color randomizer button next to logo. Add hex codes on hover.
-  * Create sharing code.
-  * QR Code generator.
-  * Alert me when this menu changes:
-    - Twilio docs in Google Cloud docs or Firebase messaging
-    - link on published menu to app page where user can enter phone number
-    - Take a look a cron jobs and how they could be utilized
-  * What are people posting ticker
-  * Move menu templates to Storage(NON public).
-  * Kiosks: put code on back of pi. Set up local network site on pi that user can enter in wifi password. Have Set up Kiosk feature in web UI.
-  * Load menus via Ajax direct from db instead of hosting on storage? Don't require auth when hitting /menus GET with menuid (Publish column has to be true).

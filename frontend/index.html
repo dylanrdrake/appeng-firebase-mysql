@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.css">
+  <!-- Firebase -->
+  <title>My New Web App!</title>
+</head>
+
+<body>
+
+
+  <div id="logged-out">
+    <h1 class="logged-out-title">User is logged out</h1>
+    <h3>Sign in to access your menus</h3>
+    <div id="firebaseui-auth-container"></div>
+  </div>
+
+
+  <div id="logged-in">
+    <div id="user"></div>
+    <div id="auth-prov-span"></div>
+  </div>
+
+
+</body>
+
+</html>

@@ -8,7 +8,6 @@ this sample.
 
 
 
-<br />
 ## Setup
 1. Clone this repo:
 
@@ -47,7 +46,8 @@ in the Firebase console under **Auth** > **Sign-in Method** >
 **Add Domain** and enter the domain of your app on App Engine:
 [PROJECT_ID].appspot.com. Do not include "http://" before the domain name.
 
-<br />
+
+
 ## Run Locally
 1. Install AppEngine included libaries listed in backend/app.yaml into your system python:
 
@@ -64,7 +64,8 @@ server with the following command:
 
 1. Visit [http://locahost:8080/](http://locahost:8080/) in a web browser.
 
-<br />
+
+
 ## Deploy
 1. Change the backend host URL in `main.js` to
 https://backend-dot-[PROJECT_ID].appspot.com.

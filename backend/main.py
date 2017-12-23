@@ -19,6 +19,8 @@ HTTP_REQUEST = google.auth.transport.requests.Request()
 
 
 app = Flask(__name__)
+
+
 # allows Ajax
 flask_cors.CORS(app)
 

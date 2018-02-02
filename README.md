@@ -28,7 +28,7 @@ You'll need to have [Python 2.7](https://www.python.org/) and the [Google Cloud 
     - create file: backend/env_config.py to store sensitive logins, passwords and keys. 
     - add:
     
-          env_config.py
+          backend/env_config.py
     
     to .gitignore in the project root to keep sensitive credentials from making their way to public repositories
 

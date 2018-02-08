@@ -1,6 +1,6 @@
 # Python Flask App boilerplate for Appengine
 
-This is a project structure boilerplate for getting started making a Flask web app meant to run on Google App Engine. These are the bare essentials I have put together after buidling several web apps for App Engine.
+This is a project structure boilerplate for getting started making a Flask web app meant to run on Google App Engine. These are the bare essentials I have found are needed for making a Firebase authenticated, MySQL backed web app after making several web apps for App Engine
 
 All dependencies are listed in **requirements.txt**. Firebase is used for authentication, Google Cloud SQL stores persistent user data and the server code runs on Google App Engine.
 

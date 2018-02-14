@@ -2,6 +2,8 @@
 
 This is a project structure boilerplate for getting started making a Flask web app meant to run on Google App Engine. These are the bare essentials I have found are needed for making a Firebase authenticated, MySQL backed web app after making several web apps for App Engine
 
+This can be used to get a backend API up and running quickly.
+
 I have since used this project structure to make several more web apps like [this one](https://github.com/dylanrdrake/ez-menu) which is running live [here](https://ez-menu.appspot.com).
 
 All dependencies are listed in **backend/requirements.txt**. Firebase is used for authentication, Google Cloud SQL stores persistent user data and the server code runs on Google App Engine.
